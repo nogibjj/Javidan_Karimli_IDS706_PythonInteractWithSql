@@ -222,3 +222,4 @@ def extract_csv(
         with open(os.path.join(directory, file_path), "wb") as f:
             f.write(r.content)
     return file_path
+
