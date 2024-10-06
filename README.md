@@ -1,12 +1,24 @@
+[![CI Pipeline](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/actions/workflows/main.yaml/badge.svg)](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/actions/workflows/main.yaml)
 
 # Python Interact with SQL - IDS706
 
 This project demonstrates how to interact with a SQL database using Python. The repository covers fundamental database operations, including connecting to a database, performing CRUD operations, and writing SQL queries. Additionally, a CI/CD pipeline is implemented to test the database interactions automatically.
 
 
-- Python script to perform SQL operations
-- Screenshot or log demonstrating successful database interactions
-- Public GitHub repository URL
+## Project Structure
+- `src/lib.py`: Python script that contain all  needed functions
+- `src/main.py`: Python script based on the functions of the lib and perform analtyical operations
+- `test/test_main.py`, `test/test_lib.py` : Contains tests to validate the operations.
+- `.github/workflows/`: CI/CD pipeline configuration for automated testing.
+
+## Requirements
+- Python 3.x
+- SQLite3 or other SQL database
+- `sqlite3` library (comes with Python)
+- `pytest` for testing
+- `black` for formatting
+- `ruff` for testing 
+- GitHub Actions for CI/CD pipeline
 
 ## CRUD Operations
 
@@ -56,4 +68,27 @@ A CI/CD pipeline has been set up to automatically run the tests for CRUD operati
    python src/main.py
    ```
 
+
+## Database Operation Snaps
+
+Create Table Operation
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/CreateTablequery.png
+
+Insert Operation
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/InsertOperation.png
+
+Read Operation
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/ReadOperation.png
+
+Update Operation
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/UpdateOperation.png
+
+Delete Operation
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/DeleteOperation.png
+
+First analtyical query performed
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnalyticQuery1.png
+
+Second analtyical query performed
+https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnaylticQuery2.png
 
