@@ -72,30 +72,30 @@ A CI/CD pipeline has been set up to automatically run the tests for CRUD operati
 ## Database Operation Snaps
 
 Create Table Operation
-![Create Table Operation]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/CreateTablequery.png)
+
+![Create Table Operation](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/CreateTablequery.png)
 
 Insert Operation
-![Insert Operation]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/InsertOperation.png)
+
+![Insert Operation](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/InsertOperation.png)
 
 Read Operation
-![Read Operation]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/ReadOperation.png)
+
+![Read Operation](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/ReadOperation.png)
 
 Update Operation
-![Update Operation]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/UpdateOperation.png)
+
+![Update Operation](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/UpdateOperation.png)
 
 Delete Operation
-![Delete Operation]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/DeleteOperation.png)
+
+![Delete Operation](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/DeleteOperation.png)
 
 First analtyical query performed
-![First analtyical query performed]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnalyticQuery1.png)
+
+![First analtyical query performed](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnalyticQuery1.png)
 
 Second analtyical query performed
-![Second analtyical query performed]
-(https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnaylticQuery2.png)
+
+![Second analtyical query performed](https://github.com/nogibjj/Javidan_Karimli_IDS706_PythonInteractWithSql/blob/dc441a505960c3923d83f8f7a8f9525c6b602157/img/AnaylticQuery2.png)
 
