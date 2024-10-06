@@ -84,6 +84,7 @@ def perform_analytics():
     )
 
     cursor = connection.cursor()
+    print(SQL.read_sql(query="src/sql/analytical_query.sql"))
 
     cursor.execute(SQL.read_sql(query="src/sql/analytical_query.sql"))
 
@@ -91,6 +92,8 @@ def perform_analytics():
 
     print(result)
     print("-" * 60)
+    print(SQL.read_sql(query="src/sql/analytical_query2.sql"))
+
     cursor.execute(SQL.read_sql(query="src/sql/analytical_query2.sql"))
 
     result2 = cursor.fetchall()

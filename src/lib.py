@@ -31,6 +31,9 @@ class ETLHelper:
                 columns=_colunms,
                 values=_values,
             )
+
+            print(base_insert_query)
+
             cursor.execute(base_insert_query)
             connection.commit()
 
@@ -49,6 +52,7 @@ class ETLHelper:
 
         # Execute a query to fetch all data from the table
         query = f"SELECT * FROM {table_name} Where {id_col_name} = {id} "
+        print(query)
         cursor.execute(query)
 
         # Fetch all rows from the executed query
@@ -70,6 +74,7 @@ class ETLHelper:
 
             # Execute a query to fetch all data from the table
             query = f"SELECT * FROM {table_name}"
+            print(query)
             cursor.execute(query)
 
             # Fetch all rows from the executed query
@@ -152,6 +157,7 @@ class ETLHelper:
                 table_name=table_name,
                 updates=formatted_updates,
             )
+            print(base_update_query)
 
             cursor.execute(base_update_query)
             connection.commit()
@@ -173,6 +179,7 @@ class ETLHelper:
             base_delete_query = SQL.read_sql(
                 "src/sql/delete.sql", id=formatted_ids, table_name=table_name
             )
+            print(base_delete_query)
 
             cursor.execute(base_delete_query)
             connection.commit()
@@ -189,6 +196,7 @@ class ETLHelper:
         try:
             cursor = connection.cursor()
             cursor.execute(query)
+            print(query)
             connection.commit()
             cursor.close()
             return True
